@@ -6,9 +6,9 @@ Este repositorio contiene una investigación empírica e ingeniería inversa sob
 Demostrar mediante manipulación controlada de LLMs (Gemini 3.1 Pro) que los detectores de IA evalúan métricas estadísticas (perplejidad y ráfaga sintáctica) y no el proceso creativo. El análisis evidencia que utilizar plataformas como Pangram como fuente única y definitiva para declarar el uso de Inteligencia Artificial en textos narrativos de largo aliento —los cuales poseen intenciones estilísticas, desarrollo de personajes y complejidad estructural— constituye un error metodológico y periodístico.
 
 ## 📂 Estructura del Repositorio
-- `/reporte_principal`: Contiene el análisis completo en PDF.
-- `/evidencia_pangram`: Reportes originales de Pangram exportados en PDF que documentan los falsos positivos y negativos.
-- `/datos_y_prompts`: Transcripciones y comandos exactos utilizados para vulnerar el algoritmo.
+- [`/reporte_principal`](https://github.com/davidhrra95/analisis-deteccion-ia-literatura/tree/main/reporte_principal): Contiene el análisis completo en PDF.
+- [`/evidencia_pangram`](https://github.com/davidhrra95/analisis-deteccion-ia-literatura/tree/main/evidencia_pangram): Reportes originales de Pangram exportados en PDF que documentan los falsos positivos y negativos.
+- [`/datos_y_prompts`](https://github.com/davidhrra95/analisis-deteccion-ia-literatura/tree/main/datos_y_prompts): Transcripciones y comandos exactos utilizados para vulnerar el algoritmo.
 
 ## 📊 Hallazgos Principales
 1. **Manipulación Iterativa:** Tras 9 iteraciones de ingeniería de prompts, un texto 100% sintético fue clasificado por Pangram como "100% escrito por humanos".
